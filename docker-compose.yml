@@ -1,0 +1,16 @@
+networks:
+  frontend-network:
+    driver: bridge
+
+services:
+  frontend:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+      no_cache: true
+    environment:
+      - "ASPNETCORE_DEVELOPMENT: true"
+      - "SIGNALR_HUB_URL="
+    networks:
+      - frontend-network
+    depends_on: []
