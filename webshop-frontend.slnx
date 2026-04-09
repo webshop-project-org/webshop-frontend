@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Webshop.Frontend.Blazor/Webshop.Frontend.Blazor.csproj" />
+    <Project Path="src/Webshop.Frontend.Common/Webshop.Frontend.Common.csproj" />
+  </Folder>
+</Solution>
